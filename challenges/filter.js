@@ -1,7 +1,9 @@
 function filter(arr, predicate) {
   let newArr = [];
   for (let i = 0; i < arr.length; i++) {
-    if (predicate(arr[i])) newArr.push(arr[i]);
+    if (predicate(arr[i])) {
+      newArr[i] = (arr[i]);
+    }
   }
   return newArr;
 }
