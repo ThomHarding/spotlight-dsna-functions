@@ -1,5 +1,4 @@
 function rootDigit(n) {
-    console.log
     if (n < 10) {
         return n;
     }
